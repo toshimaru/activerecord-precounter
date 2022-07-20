@@ -10,8 +10,8 @@ jobs:
       matrix:
         include:
           # Default
-          - ruby: 2.7
-            gemfile: ci/Gemfile.activerecord-5.2.x
+          - ruby: 3.0
+            gemfile: ci/Gemfile.activerecord-6.0.x
             arconn: sqlite3
           # Ruby versions
           - ruby: 2.5
